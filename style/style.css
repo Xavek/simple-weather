@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #cffffe;
+}
+
+.userInput {
+  display: flex;
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+
+  flex-direction: column;
+}
+
+#searchCity {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+#searchCity:focus {
+  border: none;
+}
+
+.btn {
+  height: 60px;
+  padding: 10px auto;
+  width: 150px;
+  border-radius: 20px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.dataDisplay {
+  text-align: center;
+  margin-top: 10px;
+}
+.countryName {
+  margin-top: 5px;
+}
+
+.desc {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.temp {
+  margin: 8px;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
